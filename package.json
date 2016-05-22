@@ -1,5 +1,5 @@
 {
-  "name": "cmhc-calculator",
+  "name": "cmhc",
   "version": "0.0.0",
   "description": "Calculates amount owing on CMHC",
   "homepage": "",
@@ -39,7 +39,7 @@
       "mocha": true
     }
   },
-  "repository": "crabl/cmhc-calculator",
+  "repository": "crabl/cmhc",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
