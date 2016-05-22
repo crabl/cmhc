@@ -1,7 +1,7 @@
 import assert from 'assert';
 import cmhc from '../lib';
 
-describe('cmhc-calculator', () => {
+describe('cmhc', () => {
   it('calculates uncapped CMHC premiums', () => {
     assert.equal(cmhc(0.2), 0.0125);
   });

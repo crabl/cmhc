@@ -1,16 +1,16 @@
-# cmhc-calculator
+# cmhc
 > Calculates the CMHC premium required for a given down payment percentage
 
 ## Installation
 
 ```sh
-$ npm install --save cmhc-calculator
+$ npm install --save crabl/cmhc
 ```
 
 ## Usage
 
 ```js
-var cmhc = require('cmhc-calculator');
+import cmhc from 'cmhc';
 
 cmhc(0.2); // => 0.0125
 
